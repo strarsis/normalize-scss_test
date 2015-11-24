@@ -1,9 +1,7 @@
 var gulp = require("gulp");
 var sass = require("gulp-sass");
 var Eyeglass = require("eyeglass").Eyeglass;
-var sassOptions = {
-  includePaths: ['/mnt/share/application/shared/scss/']
-}; // put whatever eyeglass and node-sass options you need here.
+var sassOptions = {}; // put whatever eyeglass and node-sass options you need here.
 
 var eyeglass = new Eyeglass(sassOptions);
 
